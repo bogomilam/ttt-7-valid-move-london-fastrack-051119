@@ -8,9 +8,7 @@ def valid_move?(board,index)
     return = FALSE
    
 end
-   
- 
- end
+end
 
 
 
