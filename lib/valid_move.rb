@@ -3,9 +3,8 @@ def valid_move?(board,index)
 
  if (!position_taken? && board[index] < 9)
    return = TRUE
-   
-  else if board[index] > 8
-    return = FALSE
+ else (index.between > 8)
+   return = FALSE
    
    else if (position_taken?) && board[index] < 9)
      return = FALSE
