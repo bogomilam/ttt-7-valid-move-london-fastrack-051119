@@ -6,11 +6,13 @@ def valid_move?(board,index)
  else (index.between > 8)
    return = FALSE
    
+   
    else if (position_taken?) && board[index] < 9)
      return = FALSE
     
   
 end
+
 end
 
 
